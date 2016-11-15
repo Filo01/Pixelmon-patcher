@@ -20,6 +20,3 @@ The -p option is required but you can choose wether to specify a version or chec
 Check the file `pixelmondiff.txt` to see which pixelmon versions are available for update/downgrade.
 #Technical details
 The patcher will download from my dropbox folder only the files that differ from your current pixelmon version to the one you want to update/downgrade to.
-
-The code signature reamins untouched so there isn't any security risk associated with patching the mod with this untrusted code.
-
