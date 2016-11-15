@@ -67,7 +67,7 @@ def get_current_version(pixelmon_jar):
 
 def get_diffzip_path(patch_name, tmp):
     print("Retrieving patch list")
-    patches = urllib2.urlopen("https://dl.dropboxusercontent.com/u/54300796/pixelmondiff.txt").read()
+    patches = urllib2.urlopen("https://raw.githubusercontent.com/Blank01/pixelmon_update/master/pixelmondiff.txt").read()
     for line in patches.split('\n'):
         if line.strip() == "":
             break
