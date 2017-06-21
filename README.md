@@ -1,7 +1,7 @@
 # Pixelmon Updater
 Updates or downgrades the pixelmonmod jar without having to download the complete mod every time.
 
-#Usage
+# Usage
 
     patcher.py -p <pixelmon.jar> -s [target server]
 
@@ -9,7 +9,7 @@ or
 
     patcher.py -p <pixelmon.jar> -V [target version]
 
-#Manual
+# Manual
 
 The -p option is required but you can choose wether to specify a version or check the one running on a selected server
 
